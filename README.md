@@ -60,9 +60,9 @@
 
 - Cross entropy loss
 - Focal loss
-  > 데이터 수가 적은 class의 학습이 비교적 잘 되지 않는 것 같아, focal loss를 사용하여 이를 해결하려고 시도하였습니다. 
+  - 데이터 수가 적은 class의 학습이 비교적 잘 되지 않는 것 같아, focal loss를 사용하여 이를 해결하려고 시도하였습니다. 
 - F1 loss
-  > LB의 measure 방법인 f1 score를 loss로 사용하면 더 높은 score를 얻을 수 있다고 판단하였습니다.
+  - LB의 measure 방법인 f1 score를 loss로 사용하면 더 높은 score를 얻을 수 있다고 판단하였습니다.
 
 => 최종적으로 cross entropy loss와 f1 loss를 결합한 형태를 학습에 사용하였습니다.
 #### Imbalanced Sampler
