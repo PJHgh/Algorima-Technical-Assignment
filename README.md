@@ -75,8 +75,8 @@
 #### Scheduler
 
 - get_cosine_with_hard_restarts_schedule_with_warmup
-  > huggingface에서 제공하는 get_cosine_with_hard_restarts_schedule_with_warmup를 사용하였습니다.
-  > 경험적으로 다른 scheduler보다 gradient exploding 현상이 적어 사용하였습니다.
+  - huggingface에서 제공하는 get_cosine_with_hard_restarts_schedule_with_warmup를 사용하였습니다.
+  - 경험적으로 다른 scheduler보다 gradient exploding 현상이 적어 사용하였습니다.
 <img src="https://huggingface.co/transformers/_images/warmup_cosine_hard_restarts_schedule.png"/>
 
 #### Early Stopping
